@@ -1,10 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&display=swap');
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    font-size: 100%;
+    list-style: none;
+    max-width: 100%;
 }
-body{
-    font-family: 'lato' , sans-serif;
-    font-weight: 400 ;
+
+a{ 
+    text-decoration: none;
+    font-weight: 400;
+    /*1.6*10 = 16px */
+    font-size: 1.6rem;
+    color:black;
+}
+
+h1,h2,p{
+    margin:  1.6rem 0;
 }
