@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
-    font-size: 100%;
+    font-size: 62.5%;
     list-style: none;
     max-width: 100%;
 }
@@ -21,6 +21,11 @@ a{
 h1,h2,p{
     margin:  1.6rem 0;
 }
+
+h1{
+    font-weight: 800;
+    font-size: 3.5rem;
+}
 /*-------------------------Hero Section*/
 header{
     height:100vh;
@@ -31,3 +36,38 @@ header{
     background-position: center;
     color:black;
 }
+
+nav{
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left:2.5rem;
+}
+
+nav ul li a:hover{
+    color:rgb(220, 132, 16);
+    transition: .5s ease-in-out;
+}
+
+@media only screen and (max-width:790px){
+    nav{
+        flex-direction: column;
+        
+        
+    }
+
+    @media only screen and (max-width:560px){
+        nav ul li{
+            display:block;
+            padding: 2% 0;
+            
+        }
+        body,html{
+            max-width:100%;
+            overflow-x: hidden;
+        }
+    }
