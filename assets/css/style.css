@@ -26,6 +26,29 @@ h1{
     font-weight: 800;
     font-size: 3.5rem;
 }
+
+h2{
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin:auto;
+}
 /*-------------------------Hero Section*/
 header{
     height:100vh;
@@ -71,3 +94,27 @@ nav ul li a:hover{
             overflow-x: hidden;
         }
     }
+}
+
+
+/*-----------------------------Classes----*/
+.row{
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 1230px){
+    .row{
+        flex-direction: column;
+    }
+    .row.col{
+        margin:20px auto;
+    }
+    .col img{
+        max-width:100%;
+    }
+}
