@@ -30,6 +30,9 @@ h1{
 h2{
     font-weight: 800;
     font-size: 2.4rem;
+    color:rgb(24, 19, 13);
+    text-align: center;
+    
 }
 
 p{
@@ -139,11 +142,11 @@ nav ul li a:hover{
     
    }
 h3{
-    color: burlywood;
+    color: rgb(212, 149, 61);
 }
  .cards h2{
     text-align: center;
-    color: aqua;
+    color:black;
  }
 
 
@@ -152,6 +155,27 @@ h3{
     .columns{
         flex-direction: row;
     }
+}
+
+/*----------------------------------testimony----------------*/
+.testimony{
+    background-color: burlywood;
+    color: rgb(68, 62, 62);
+}
+.testimony .test{
+    background-color: bisque;
+    padding: 4rem 8rem;
+    margin:0 1rem
+}
+.testimony .image{
+    height: 80px;
+    width: 80px;
+}
+.testimony img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /*----------------------------Pricing-------------*/
@@ -237,22 +261,4 @@ li{
      }
 }
 
-  /*----------------------------------testimony----------------*/
-.testimony{
-    background-color: burlywood;
-    color: rgb(68, 62, 62);
-}
-.testimony .test{
-    background-color: bisque;
-    padding: 4rem 8rem;
-    margin:0 1rem
-}
-.testimony .image{
-    height: 80px;
-    width: 80px;
-}
-.testimony img{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
+  
