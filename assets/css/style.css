@@ -118,3 +118,38 @@ nav ul li a:hover{
         max-width:100%;
     }
 }
+
+/*main body*/
+.columns{
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    margin: 20px;
+    
+   
+}
+.columns > * {
+    flex-basis: 100%;
+    
+}
+.card_title{
+    font-size: medium;
+    text-align: center;
+    padding: 18px;
+    
+   }
+h3{
+    color: burlywood;
+}
+ .cards h2{
+    text-align: center;
+    color: aqua;
+ }
+
+
+
+@media(min-width:1290px){
+    .columns{
+        flex-direction: row;
+    }
+}
