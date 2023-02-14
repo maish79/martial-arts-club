@@ -153,3 +153,106 @@ h3{
         flex-direction: row;
     }
 }
+
+/*----------------------------Pricing-------------*/
+.heading-primary{
+    text-align: center;
+    font-size: 3rem;
+    margin: 50px 0;
+   
+}
+.plan-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+   
+}
+.plan-section .plan{
+   width: 300px; 
+   height: 370px;
+   text-align: center;
+   padding: 30px 20px;
+   margin-right:100px ;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0.6rem 1.6rem #b3b5c6;
+
+}
+.plan-section .plan .plan-price{
+    font-size: 4rem;
+}
+.plan-section .plan .dollar{
+font-size: 2rem;
+font-weight: 400;
+vertical-align: middle;
+
+}
+ .plan-section .plan .plan-features .plan-item{
+   
+    border-bottom: 1px solid #b3b5c6;
+}
+.plan-section .plan .btn{
+    background-color: bisque;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(34, 32, 32);
+    border-radius: 5px;
+
+}
+.plan-section .plan .btn:hover{
+    background-color: aliceblue;
+    color: #8aa3ed;
+    border:1px solid burlywood;
+    font-weight: 900;
+}
+
+
+
+li{
+    font-size: medium;
+}
+
+.plan-section .basic{
+    background-color:aqua;
+}
+.plan-section .pro{
+    background-color: bisque;
+}
+.plan-section .master{
+    background-color: rgb(91, 68, 38);
+}
+@media (max-width:1100px){
+    .plan-section{
+        flex-direction: column;
+    }
+}
+@media(max-width:600px){
+     .plan-section{
+        
+        margin-left: 100px;
+    
+     }
+}
+
+  /*----------------------------------testimony----------------*/
+.testimony{
+    background-color: burlywood;
+    color: rgb(68, 62, 62);
+}
+.testimony .test{
+    background-color: bisque;
+    padding: 4rem 8rem;
+    margin:0 1rem
+}
+.testimony .image{
+    height: 80px;
+    width: 80px;
+}
+.testimony img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
