@@ -9,7 +9,6 @@
     list-style: none;
     max-width: 100%;
 }
-
 a{ 
     text-decoration: none;
     font-weight: 400;
@@ -26,25 +25,20 @@ h1{
     font-weight: 800;
     font-size: 3.5rem;
 }
-
 h2{
     font-weight: 800;
     font-size: 2.4rem;
-    color:rgb(24, 19, 13);
     text-align: center;
-    
 }
-
 p{
-    font-weight: 400;
+    font-weight: normal;
     font-size: 1.8rem;
 }
-
 img{
     width:100%;
     height:auto;
-}
 
+}
 .row{
     display:flex;
     justify-content: space-between;
@@ -52,7 +46,10 @@ img{
     align-items: center;
     margin:auto;
 }
-/*-------------------------Hero Section*/
+section{
+    padding: 100px 0;
+}
+/*--------------------Hero Section*/
 header{
     height:100vh;
     max-width:100% ;
@@ -62,13 +59,15 @@ header{
     background-position: center;
     color:black;
 }
-
 nav{
     padding: 2% 8%;
     display: flex;
     justify-content: space-between;
+    
 }
-
+nav ul {
+    list-style-type: none;
+}
 nav ul li{
     display: inline-block;
     margin-left:2.5rem;
@@ -78,27 +77,25 @@ nav ul li a:hover{
     color:rgb(220, 132, 16);
     transition: .5s ease-in-out;
 }
-
 @media only screen and (max-width:790px){
     nav{
         flex-direction: column;
         
         
     }
-
-    @media only screen and (max-width:560px){
-        nav ul li{
-            display:block;
-            padding: 2% 0;
-            
-        }
-        body,html{
-            max-width:100%;
-            overflow-x: hidden;
-        }
+    
+}
+@media only screen and (max-width:560px){
+    nav ul li{
+        display:block;
+        padding: 2% 0;
+        
+    }
+    body,html{
+        max-width:100%;
+        overflow-x: hidden;
     }
 }
-
 
 /*-----------------------------Classes----*/
 .row{
@@ -107,9 +104,21 @@ nav ul li a:hover{
     width:100%;
     justify-content: space-between;
     margin-top: 50px;
+
 }
+.row .col img{
+    width:80%;
+}
+.row .col{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 
-
+}
+p{
+    font-size:medium;
+    color: rgb(75, 74, 74);
+}
 @media only screen and (max-width: 1230px){
     .row{
         flex-direction: column;
@@ -121,7 +130,6 @@ nav ul li a:hover{
         max-width:100%;
     }
 }
-
 /*main body*/
 .columns{
     display: flex;
@@ -142,11 +150,11 @@ nav ul li a:hover{
     
    }
 h3{
-    color: rgb(212, 149, 61);
+    color: burlywood;
 }
  .cards h2{
     text-align: center;
-    color:black;
+    color: black;
  }
 
 
@@ -156,7 +164,6 @@ h3{
         flex-direction: row;
     }
 }
-
 /*----------------------------------testimony----------------*/
 .testimony{
     background-color: burlywood;
@@ -176,8 +183,9 @@ h3{
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
-}
 
+
+}
 /*----------------------------Pricing-------------*/
 .heading-primary{
     text-align: center;
@@ -240,7 +248,7 @@ li{
 }
 
 .plan-section .basic{
-    background-color:aqua;
+    background-color:burlywood
 }
 .plan-section .pro{
     background-color: bisque;
