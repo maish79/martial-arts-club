@@ -48,7 +48,7 @@
 
 # Contact
 * We also have the contact address which shows us the physical address of the club.
-* We also have the social media icons i.e facebook, twitter, instagram and youtube in ralation with the club.
+* We also have the social media icons i.e facebook, twitter, instagram and youtube in relation with the club.
  
 <img src="assets/images/contact2.png">
 
