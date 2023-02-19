@@ -14,7 +14,7 @@
 <img src="assets/images/hero-image.png">
 
 ## Classes
-* In the classes section we can see a pictre of kids and Adult training in their respective classes with our trainers hightly motivated.
+* In the classes section we can see a picture of kids and Adults training in their respective classes with our trainers hightly motivated.
 
 <img src="assets/images/kids-adults.png">
 
@@ -47,7 +47,7 @@
 <img src="assets/images/signup.png">
 
 # Contact
-* We also have the contact address which shows us the physical address od the club.
+* We also have the contact address which shows us the physical address of the club.
 * We also have the social media icons i.e facebook, twitter, instagram and youtube in ralation with the club.
  
 <img src="assets/images/contact2.png">
